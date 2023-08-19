@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AlBayanWebAPI</name>
+    </assembly>
+    <members>
+        <member name="P:AlBayanWebAPI.Models.Encounter._encounterType">
+            <summary>
+            1 =No Bed + No emergency room
+            2 = No Bed + Emergency room
+              3 = Inpatient Bed + No emergency room
+             4 = Inpatient Bed + Emergency room
+             5 = Daycase Bed + No emergency room
+             6 = Daycase Bed + Emergency room
+              7 = Nationals Screening
+             8 = New Visa Screening
+              9 = Renewal Visa Screening
+              10 = PRE-OP TEST PROCEDURES
+             12 = Home
+             13 = Assisted Living Facility
+              15 = Mobile Unit
+              41 = Ambulance - Land
+            </summary>
+        </member>
+        <member name="P:AlBayanWebAPI.Models.Encounter._encounterStartType">
+            <summary>
+             1 = Elective
+             2 = Emergency
+             3 = Transfer
+             4 = Live birth
+             5 = Still birth
+             6 = Dead On Arrival
+             7 = Continuing Encounter.
+            </summary>
+        </member>
+        <member name="P:AlBayanWebAPI.Models.Encounter._encounterEndType">
+            <summary>
+              1 = Discharged with approval
+              2 = Discharged against advice
+              3 = Discharged absent without leave
+              4 = Discharge transfer to acute care
+              5 = Deceased
+              6 = Not discharged
+              7 = Discharge transfer to non-acute care(Transfer to long term care).
+              8 = Administrative discharge
+            </summary>
+        </member>
+        <member name="P:AlBayanWebAPI.Models.Diagnosis._type">
+            <summary>
+            Principal  Secondary   Admitting
+            </summary>
+        </member>
+        <member name="P:AlBayanWebAPI.Models.Activity._activityType">
+            <summary>
+            3 = CPT; 4 = HCPCS; 5 = Drug; 6 = Dental; 8 = Service Code;9 = DRG; 10 = Scientific Code
+            </summary>
+        </member>
+        <member name="P:AlBayanWebAPI.Models.Observation._observationType">
+            <summary>
+            LOINC  ,Text  ,   File   ,   Universal Dental  ,  Financial  ,  Grouping  ,   ERX     ,   Result
+            </summary>
+        </member>
+        <member name="P:AlBayanWebAPI.Models.ClaimData._submissionType">
+            <summary>
+            1:  First Submission  2 : Second Submission  3: Third Submission
+            </summary>
+        </member>
+        <member name="P:AlBayanWebAPI.Models.DashBoardDetails._claimStatus">
+            <summary>
+            1: paid 0  : Not PAid
+            </summary>
+        </member>
+        <member name="P:AlBayanWebAPI.Models.DashBoardDetails._approvalStatus">
+            <summary>
+            1: Approved  0 : Not Approved
+            </summary>
+        </member>
+        <member name="P:AlBayanWebAPI.Models.filters.sortType">
+            <summary>
+            screenType 1  for UserData with response
+            2:EncounterType
+            3:ActivityType
+            4:EncounterStartType
+            5:EncounterEndType
+            6:DenialCodes
+            </summary>
+        </member>
+        <member name="P:AlBayanWebAPI.Models.Registration._accountType">
+            <summary>
+            1: Provider  2: Payer
+            </summary>
+        </member>
+        <member name="P:AlBayanWebAPI.Models.Registration._facility">
+            <summary>
+            DHA ,Riyati or HAAD Facility ID
+            </summary>
+        </member>
+    </members>
+</doc>
